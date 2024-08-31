@@ -120,12 +120,7 @@ const XStates = () => {
         ))}
       </select>
       {finalSelection && (
-        <div>
-          <span className="heading">You Selected </span>
-          <span className="city">{selectedCity}, </span>
-          <span className="state">{selectedState}, </span>
-          <span className="country">{selectedCountry} </span>
-        </div>
+        <h2>You Selected {finalSelection}</h2>
       )}
     </div>
   );
