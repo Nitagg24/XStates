@@ -120,7 +120,7 @@ const XStates = () => {
         ))}
       </select>
       {finalSelection && (
-        <h2>You Selected {finalSelection}</h2>
+        <h2>You selected {finalSelection}</h2>
       )}
     </div>
   );
