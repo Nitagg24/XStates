@@ -1,0 +1,31 @@
+.location-selector {
+    font-family: Arial, sans-serif;
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+.heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+.city{
+    font-weight: bold;
+    font-size: 25px;
+}
+.state,.country{
+    font-weight: bold;
+    font-size: 20px;
+    color:gray
+}
+
+.location-selector select {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.location-selector p {
+    margin-top: 20px;
+    font-size: 16px;
+}
